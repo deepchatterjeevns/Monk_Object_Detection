@@ -17,50 +17,72 @@ A one-stop repository for low-code easily-installable object detection pipelines
 (See the licenses for each pipeline and use accordingly)
 
 
-- A) GluonCV Finetune: Original -  https://gluon-cv.mxnet.io/build/examples_detection/index.html
-    - SSD with Vgg16
-    - SSD with Resnet50
-    - SSD with Resnet101
-    - SSD with MobileNet1.0
-    - YoloV3 with Darknet53
-    - YoloV3 with MobileNet1.0
+- A) GluonCV Finetune
+    - [Original Implementation](https://gluon-cv.mxnet.io/build/examples_detection/index.html)
+    - [Functional Documentation](https://abhi-kumar.github.io/1_gluoncv_finetune_docs/)
+        - SSD with Vgg16
+        - SSD with Resnet50
+        - SSD with Resnet101
+        - SSD with MobileNet1.0
+        - YoloV3 with Darknet53
+        - YoloV3 with MobileNet1.0
     
-- B) TorchVision Finetune: Original - https://pytorch.org/tutorials/intermediate/torchvision_tutorial.html
-    - Faster-RCNN with MobileNet2.0
+- B) TorchVision Finetune: Original
+    - [Original Implementation](https://pytorch.org/tutorials/intermediate/torchvision_tutorial.html)
+    - [Functional Documentation](https://abhi-kumar.github.io/2_pytorch_finetune_docs/)
+        - Faster-RCNN with MobileNet2.0
     
-- C) MX-RCNN: Original - https://github.com/ijkguo/mx-rcnn
-    - Faster-RCNN with VGG16
-    - Faster-RCNN with Resnet50
-    - Faster-RCNN with Resnet101
+- C) MX-RCNN: Original
+    - [Original Implementation](https://github.com/ijkguo/mx-rcnn)
+    - [Functional Documentation](https://abhi-kumar.github.io/3_mxrcnn_docs/)
+        - Faster-RCNN with VGG16
+        - Faster-RCNN with Resnet50
+        - Faster-RCNN with Resnet101
     
-- D) Efficient-Det: Original -  https://github.com/signatrix/efficientdet
+- D) Efficient-Det: Original
+    - [Original Implementation](https://github.com/signatrix/efficientdet)
+    - [Functional Documentation](https://abhi-kumar.github.io/4_efficientdet_docs/)
 
-- E) Pytorch-Retinanet: Original - https://github.com/yhenon/pytorch-retinanet
-    - Resnet18
-    - Resnet34
-    - Resnet50
-    - Resnet101
-    - Resnet152
+- E) Pytorch-Retinanet: Original
+    - [Original Implementation](https://github.com/yhenon/pytorch-retinanet)
+    - [Functional Documentation](https://abhi-kumar.github.io/5_pytorch_retinanet_docs/)
+        - Resnet18
+        - Resnet34
+        - Resnet50
+        - Resnet101
+        - Resnet152
     
-- F) CornerNet-Lite: Original - https://github.com/princeton-vl/CornerNet-Lite
-    - CornerNet-Saccade
-    - CornerNet-Squeeze
+- F) CornerNet-Lite: Original
+    - [Original Implementation](https://github.com/princeton-vl/CornerNet-Lite)
+    - [Functional Documentation](https://abhi-kumar.github.io/6_cornernet_lite_docs/)
+        - CornerNet-Saccade
+        - CornerNet-Squeeze
     
-- G) YOLOV3: Original - https://github.com/ultralytics/yolov3
-    - yolov3
-    - yolov3s
-    - yolov3-spp
-    - yolov3-spp3
-    - yolov3-tiny
-    - yolov3-spp-matrix
-    - csresnext50-panet-spp
+- G) YOLOV3: Original
+    - [Original Implementation](https://github.com/ultralytics/yolov3)
+    - [Functional Documentation](https://abhi-kumar.github.io/7_yolov3_docs/)
+        - yolov3
+        - yolov3s
+        - yolov3-spp
+        - yolov3-spp3
+        - yolov3-tiny
+        - yolov3-spp-matrix
+        - csresnext50-panet-spp
 
-- H) RFBNet: Original - https://github.com/ruinmessi/RFBNet
-    - VGG16
-    - E_VGG16
-    - MobileNet
+- H) RFBNet:
+    - [Original Implementation](https://github.com/ruinmessi/RFBNet)
+    - [Functional Documentation](https://abhi-kumar.github.io/8_pytorch_rfbnet_docs/)
+        - VGG16
+        - E_VGG16
+        - MobileNet
     
-
+- I) Segmentation_Models:
+    - [Original Implementation](https://github.com/qubvel/segmentation_models)
+    - [Functional Documentation]
+        - Unet
+        - FPN
+        - Linknet
+        - PSPNet
 
       
 <br />
@@ -91,6 +113,9 @@ A one-stop repository for low-code easily-installable object detection pipelines
     
 - H) RFBNet
     - Check - Monk_Object_Detection/8_pytorch_rfbnet
+    
+- I) Segmentation_Models
+    - Check - Monk_Object_Detection/9_segmentation_models
 
 <br />
 <br />
